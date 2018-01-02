@@ -14,7 +14,7 @@ var quotes = {
     4:{
         "quote": "Technology is a word that describes something that doesn’t work yet",
         "author": "Douglas Adams"
-    }
+    },
     5:{
         "quote": "Technology is anything that wasn’t around when you were born",
         "author": "Alan Kay"
