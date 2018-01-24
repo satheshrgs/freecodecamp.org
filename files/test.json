@@ -1,14 +1,14 @@
 {
-  "id": "18348ff4-5021-4918-adb5-3f834bdbcc9b",
-  "timestamp": "2018-01-24T06:59:45.685Z",
+  "id": "ed931124-d152-4423-ac28-8fe60ddd5eeb",
+  "timestamp": "2018-01-24T07:21:07.02Z",
   "lang": "en",
   "result": {
     "source": "agent",
-    "resolvedQuery": "show all records",
+    "resolvedQuery": "career area",
     "action": "careerArea",
     "actionIncomplete": false,
     "parameters": {
-      "count": "9999",
+      "count": "",
       "number": ""
     },
     "contexts": [
@@ -16,9 +16,9 @@
         "name": "career_area",
         "parameters": {
           "number": "",
-          "count": "9999",
+          "count": "",
           "number.original": "",
-          "count.original": "all"
+          "count.original": ""
         },
         "lifespan": 5
       }
@@ -27,25 +27,19 @@
       "intentId": "66c2e1c3-a752-46c9-a4cb-b61e0e932aaf",
       "webhookUsed": "true",
       "webhookForSlotFillingUsed": "false",
-      "webhookResponseTime": 1511,
+      "webhookResponseTime": 1593,
       "intentName": "Career Area"
     },
     "fulfillment": {
-      "speech": "Total records found :26\nShowing 2 records\n1.Agriculture, Horticulture, & the Outdoors \n2.Clerical and Administrative ",
-      "source": "Focus-API-BGT",
-      "displayText": "Total records found :26\nShowing 2 records\n1.Agriculture, Horticulture, & the Outdoors \n2.Clerical and Administrative ",
-      "messages": [
-        {
-          "type": 0,
-          "speech": "Total records found :26\nShowing 2 records\n1.Agriculture, Horticulture, & the Outdoors \n2.Clerical and Administrative "
-        }
-      ]
+      "speech": "",
+      "messages": []
     },
     "score": 1
   },
   "status": {
-    "code": 200,
-    "errorType": "success",
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: 500 INTERNAL SERVER ERROR",
     "webhookTimedOut": false
   },
   "sessionId": "2d869ef2-1872-4793-afe3-75ab7564de4c"
