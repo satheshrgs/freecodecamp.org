@@ -1,46 +1,45 @@
 {
-  "id": "ed931124-d152-4423-ac28-8fe60ddd5eeb",
-  "timestamp": "2018-01-24T07:21:07.02Z",
-  "lang": "en",
-  "result": {
-    "source": "agent",
-    "resolvedQuery": "career area",
-    "action": "careerArea",
-    "actionIncomplete": false,
-    "parameters": {
-      "count": "",
-      "number": ""
-    },
-    "contexts": [
-      {
-        "name": "career_area",
+    "id": "0cdca38a-c605-4d4d-a3a5-fc5c60ea45a8",
+    "timestamp": "2018-01-24T07:30:06.009Z",
+    "lang": "en",
+    "result": {
+        "source": "agent",
+        "resolvedQuery": "career area",
+        "speech": "",
+        "action": "careerArea",
+        "actionIncomplete": false,
         "parameters": {
-          "number": "",
-          "count": "",
-          "number.original": "",
-          "count.original": ""
+            "count": "",
+            "number": ""
         },
-        "lifespan": 5
-      }
-    ],
-    "metadata": {
-      "intentId": "66c2e1c3-a752-46c9-a4cb-b61e0e932aaf",
-      "webhookUsed": "true",
-      "webhookForSlotFillingUsed": "false",
-      "webhookResponseTime": 1593,
-      "intentName": "Career Area"
+        "contexts": [
+            {
+                "name": "career_area",
+                "parameters": {
+                    "number": "",
+                    "count": "",
+                    "number.original": "",
+                    "count.original": ""
+                },
+                "lifespan": 5
+            }
+        ],
+        "metadata": {
+            "intentId": "66c2e1c3-a752-46c9-a4cb-b61e0e932aaf",
+            "webhookUsed": "true",
+            "webhookForSlotFillingUsed": "false",
+            "intentName": "Career Area"
+        },
+        "fulfillment": {
+            "speech": "",
+            "messages": []
+        },
+        "score": 1.0
     },
-    "fulfillment": {
-      "speech": "",
-      "messages": []
+    "status": {
+        "code": 200,
+        "errorType": "success",
+        "webhookTimedOut": false
     },
-    "score": 1
-  },
-  "status": {
-    "code": 206,
-    "errorType": "partial_content",
-    "errorDetails": "Webhook call failed. Error: 500 INTERNAL SERVER ERROR",
-    "webhookTimedOut": false
-  },
-  "sessionId": "2d869ef2-1872-4793-afe3-75ab7564de4c"
+    "sessionId": "2d869ef2-1872-4793-afe3-75ab7564de4c"
 }
