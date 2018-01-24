@@ -1,18 +1,51 @@
 {
-	"result":
-	{
-		"offset":0,
-		"limit":2,
-		"count":2,
-		"totalCount":26,
-		"data":
-			[
-				{"id":"explorer/careerareas/10","name":"Agriculture, Horticulture, & the Outdoors","localisationId":12090},
-				{"id":"explorer/careerareas/2","name":"Clerical and Administrative","localisationId":12090}
-			]
-	},
-	"requestId":"1228af06-0888-48ec-a499-07213d213da1",
-	"timestamp":1516770833,
-	"status":"success",
-	"statusCode":"OK"
+  "id": "df95c649-5021-43d4-ac15-67a2cbe781d3",
+  "timestamp": "2018-01-24T06:47:40.89Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "show all records",
+    "action": "careerArea",
+    "actionIncomplete": false,
+    "parameters": {
+      "count": "9999"
+    },
+    "contexts": [
+      {
+        "name": "career_area",
+        "parameters": {
+          "number": 5,
+          "count": "9999",
+          "number.original": "5",
+          "count.original": "all"
+        },
+        "lifespan": 10
+      }
+    ],
+    "metadata": {
+      "intentId": "66c2e1c3-a752-46c9-a4cb-b61e0e932aaf",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 1450,
+      "intentName": "Career Area"
+    },
+    "fulfillment": {
+      "speech": "Total records found :26\nShowing 2 records\n1.Agriculture, Horticulture, & the Outdoors \n2.Clerical and Administrative ",
+      "source": "Focus-API-BGT",
+      "displayText": "Total records found :26\nShowing 2 records\n1.Agriculture, Horticulture, & the Outdoors \n2.Clerical and Administrative ",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Total records found :26\nShowing 2 records\n1.Agriculture, Horticulture, & the Outdoors \n2.Clerical and Administrative "
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "2d869ef2-1872-4793-afe3-75ab7564de4c"
 }
