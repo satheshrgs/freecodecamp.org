@@ -1,0 +1,18 @@
+{
+	"result":
+	{
+		"offset":0,
+		"limit":2,
+		"count":2,
+		"totalCount":26,
+		"data":
+			[
+				{"id":"explorer/careerareas/10","name":"Agriculture, Horticulture, & the Outdoors","localisationId":12090},
+				{"id":"explorer/careerareas/2","name":"Clerical and Administrative","localisationId":12090}
+			]
+	},
+	"requestId":"1228af06-0888-48ec-a499-07213d213da1",
+	"timestamp":1516770833,
+	"status":"success",
+	"statusCode":"OK"
+}
